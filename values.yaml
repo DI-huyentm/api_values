@@ -1,0 +1,14 @@
+appName: myapi
+
+port: 4000
+
+namespace: api
+
+configmap:
+  name: myhelmapp-configmap-v2
+  data:
+    CUSTOM_HEADER: 'This app api was deployed HoangBaBao!'
+
+image:
+  name: baofci/app
+  tag: latest
