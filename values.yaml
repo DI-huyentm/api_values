@@ -11,4 +11,4 @@ configmap:
 
 image:
   name: baofci/app
-  tag: latest
+  tag: v1.0.0
