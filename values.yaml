@@ -7,8 +7,8 @@ namespace: vdt-api
 configmap:
   name: myhelmapp-configmap-v2
   data:
-    CUSTOM_HEADER: 'This app api was deployed HoangBaBao!'
+    CUSTOM_HEADER: "This app api was deployed by Huyen!"
 
 image:
-  name: baofci/app
-  tag: v2.2.1
+  name: huyencnh70/vdt-api
+  tag: v1
