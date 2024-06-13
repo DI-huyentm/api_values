@@ -11,4 +11,4 @@ configmap:
 
 image:
   name: huyencnh70/vdt-app
-  tag: latest
+  tag: v1.0.1
