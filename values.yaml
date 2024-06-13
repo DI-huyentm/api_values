@@ -10,5 +10,5 @@ configmap:
     CUSTOM_HEADER: "This app api was deployed by Huyen!"
 
 image:
-  name: huyencnh70/vdt-api
-  tag: v1
+  name: huyencnh70/vdt-app
+  tag: latest
